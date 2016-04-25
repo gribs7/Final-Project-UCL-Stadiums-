@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D121CCE882100FFA870 /* AppDelegate.swift */; };
+		79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D141CCE882100FFA870 /* ViewController.swift */; };
+		79FA4D181CCE882100FFA870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D161CCE882100FFA870 /* Main.storyboard */; };
+		79FA4D1A1CCE882100FFA870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D191CCE882100FFA870 /* Assets.xcassets */; };
+		79FA4D1D1CCE882100FFA870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */; };
+		79FA4D281CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D271CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift */; };
+		79FA4D331CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D321CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79FA4D241CCE882100FFA870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FA4D071CCE882100FFA870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FA4D0E1CCE882100FFA870;
+			remoteInfo = "Final Project (UCL Stadiums)";
+		};
+		79FA4D2F1CCE882100FFA870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FA4D071CCE882100FFA870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FA4D0E1CCE882100FFA870;
+			remoteInfo = "Final Project (UCL Stadiums)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79FA4D0F1CCE882100FFA870 /* Final Project (UCL Stadiums).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project (UCL Stadiums).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FA4D121CCE882100FFA870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79FA4D141CCE882100FFA870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79FA4D171CCE882100FFA870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FA4D191CCE882100FFA870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FA4D1C1CCE882100FFA870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FA4D1E1CCE882100FFA870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FA4D231CCE882100FFA870 /* Final Project (UCL Stadiums)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project (UCL Stadiums)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FA4D271CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__UCL_Stadiums_Tests.swift; sourceTree = "<group>"; };
+		79FA4D291CCE882100FFA870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FA4D2E1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project (UCL Stadiums)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FA4D321CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__UCL_Stadiums_UITests.swift; sourceTree = "<group>"; };
+		79FA4D341CCE882100FFA870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FA4D0C1CCE882100FFA870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D201CCE882100FFA870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D2B1CCE882100FFA870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FA4D061CCE882100FFA870 = {
+			isa = PBXGroup;
+			children = (
+				79FA4D111CCE882100FFA870 /* Final Project (UCL Stadiums) */,
+				79FA4D261CCE882100FFA870 /* Final Project (UCL Stadiums)Tests */,
+				79FA4D311CCE882100FFA870 /* Final Project (UCL Stadiums)UITests */,
+				79FA4D101CCE882100FFA870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79FA4D101CCE882100FFA870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FA4D0F1CCE882100FFA870 /* Final Project (UCL Stadiums).app */,
+				79FA4D231CCE882100FFA870 /* Final Project (UCL Stadiums)Tests.xctest */,
+				79FA4D2E1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FA4D111CCE882100FFA870 /* Final Project (UCL Stadiums) */ = {
+			isa = PBXGroup;
+			children = (
+				79FA4D121CCE882100FFA870 /* AppDelegate.swift */,
+				79FA4D141CCE882100FFA870 /* ViewController.swift */,
+				79FA4D161CCE882100FFA870 /* Main.storyboard */,
+				79FA4D191CCE882100FFA870 /* Assets.xcassets */,
+				79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */,
+				79FA4D1E1CCE882100FFA870 /* Info.plist */,
+			);
+			path = "Final Project (UCL Stadiums)";
+			sourceTree = "<group>";
+		};
+		79FA4D261CCE882100FFA870 /* Final Project (UCL Stadiums)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79FA4D271CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift */,
+				79FA4D291CCE882100FFA870 /* Info.plist */,
+			);
+			path = "Final Project (UCL Stadiums)Tests";
+			sourceTree = "<group>";
+		};
+		79FA4D311CCE882100FFA870 /* Final Project (UCL Stadiums)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				79FA4D321CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift */,
+				79FA4D341CCE882100FFA870 /* Info.plist */,
+			);
+			path = "Final Project (UCL Stadiums)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FA4D0E1CCE882100FFA870 /* Final Project (UCL Stadiums) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FA4D371CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)" */;
+			buildPhases = (
+				79FA4D0B1CCE882100FFA870 /* Sources */,
+				79FA4D0C1CCE882100FFA870 /* Frameworks */,
+				79FA4D0D1CCE882100FFA870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project (UCL Stadiums)";
+			productName = "Final Project (UCL Stadiums)";
+			productReference = 79FA4D0F1CCE882100FFA870 /* Final Project (UCL Stadiums).app */;
+			productType = "com.apple.product-type.application";
+		};
+		79FA4D221CCE882100FFA870 /* Final Project (UCL Stadiums)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FA4D3A1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)Tests" */;
+			buildPhases = (
+				79FA4D1F1CCE882100FFA870 /* Sources */,
+				79FA4D201CCE882100FFA870 /* Frameworks */,
+				79FA4D211CCE882100FFA870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FA4D251CCE882100FFA870 /* PBXTargetDependency */,
+			);
+			name = "Final Project (UCL Stadiums)Tests";
+			productName = "Final Project (UCL Stadiums)Tests";
+			productReference = 79FA4D231CCE882100FFA870 /* Final Project (UCL Stadiums)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79FA4D2D1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FA4D3D1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)UITests" */;
+			buildPhases = (
+				79FA4D2A1CCE882100FFA870 /* Sources */,
+				79FA4D2B1CCE882100FFA870 /* Frameworks */,
+				79FA4D2C1CCE882100FFA870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FA4D301CCE882100FFA870 /* PBXTargetDependency */,
+			);
+			name = "Final Project (UCL Stadiums)UITests";
+			productName = "Final Project (UCL Stadiums)UITests";
+			productReference = 79FA4D2E1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FA4D071CCE882100FFA870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SHP;
+				TargetAttributes = {
+					79FA4D0E1CCE882100FFA870 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9PD8YAUQ55;
+					};
+					79FA4D221CCE882100FFA870 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9PD8YAUQ55;
+						TestTargetID = 79FA4D0E1CCE882100FFA870;
+					};
+					79FA4D2D1CCE882100FFA870 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9PD8YAUQ55;
+						TestTargetID = 79FA4D0E1CCE882100FFA870;
+					};
+				};
+			};
+			buildConfigurationList = 79FA4D0A1CCE882100FFA870 /* Build configuration list for PBXProject "Final Project (UCL Stadiums)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79FA4D061CCE882100FFA870;
+			productRefGroup = 79FA4D101CCE882100FFA870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FA4D0E1CCE882100FFA870 /* Final Project (UCL Stadiums) */,
+				79FA4D221CCE882100FFA870 /* Final Project (UCL Stadiums)Tests */,
+				79FA4D2D1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FA4D0D1CCE882100FFA870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA4D1D1CCE882100FFA870 /* LaunchScreen.storyboard in Resources */,
+				79FA4D1A1CCE882100FFA870 /* Assets.xcassets in Resources */,
+				79FA4D181CCE882100FFA870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D211CCE882100FFA870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D2C1CCE882100FFA870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FA4D0B1CCE882100FFA870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */,
+				79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D1F1CCE882100FFA870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA4D281CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA4D2A1CCE882100FFA870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA4D331CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79FA4D251CCE882100FFA870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FA4D0E1CCE882100FFA870 /* Final Project (UCL Stadiums) */;
+			targetProxy = 79FA4D241CCE882100FFA870 /* PBXContainerItemProxy */;
+		};
+		79FA4D301CCE882100FFA870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FA4D0E1CCE882100FFA870 /* Final Project (UCL Stadiums) */;
+			targetProxy = 79FA4D2F1CCE882100FFA870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79FA4D161CCE882100FFA870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FA4D171CCE882100FFA870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FA4D1C1CCE882100FFA870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79FA4D351CCE882100FFA870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79FA4D361CCE882100FFA870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FA4D381CCE882100FFA870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79FA4D391CCE882100FFA870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79FA4D3B1CCE882100FFA870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project (UCL Stadiums).app/Final Project (UCL Stadiums)";
+			};
+			name = Debug;
+		};
+		79FA4D3C1CCE882100FFA870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project (UCL Stadiums).app/Final Project (UCL Stadiums)";
+			};
+			name = Release;
+		};
+		79FA4D3E1CCE882100FFA870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Final Project (UCL Stadiums)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79FA4D3F1CCE882100FFA870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Final Project (UCL Stadiums)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Final Project (UCL Stadiums)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FA4D0A1CCE882100FFA870 /* Build configuration list for PBXProject "Final Project (UCL Stadiums)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA4D351CCE882100FFA870 /* Debug */,
+				79FA4D361CCE882100FFA870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FA4D371CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA4D381CCE882100FFA870 /* Debug */,
+				79FA4D391CCE882100FFA870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79FA4D3A1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA4D3B1CCE882100FFA870 /* Debug */,
+				79FA4D3C1CCE882100FFA870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79FA4D3D1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA4D3E1CCE882100FFA870 /* Debug */,
+				79FA4D3F1CCE882100FFA870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FA4D071CCE882100FFA870 /* Project object */;
+}
