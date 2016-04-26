@@ -288,7 +288,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let EmiratesStadiumAnnotation = MKPointAnnotation()
         
         EmiratesStadiumAnnotation.title = "Emirates Stadium"
-        EmiratesStadiumAnnotation.subtitle = "Home to Arsenal FC"
+        EmiratesStadiumAnnotation.subtitle = "Home to Arsenal FC is a football stadium in Holloway, London, England, and the home of Arsenal Football Club. With a capacity of 60,260, the Emirates is the third-largest football stadium in England after Wembley and Old Trafford."
         
         EmiratesStadiumAnnotation.coordinate = EmiratesStadiumLocation
         
@@ -298,12 +298,19 @@ class ViewController: UIViewController, MKMapViewDelegate {
     //
         
         
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    
+    
 
     //FUNCTION FOR CHANGING MAP VIEWS
     
@@ -319,5 +326,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
             break
         }
     }
+    
+    
+    
+    
 }
 

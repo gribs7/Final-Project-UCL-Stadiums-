@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79245CF71CCF2807000AE1B3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79245CF61CCF2807000AE1B3 /* QuizViewController.swift */; };
 		79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D121CCE882100FFA870 /* AppDelegate.swift */; };
 		79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D141CCE882100FFA870 /* ViewController.swift */; };
 		79FA4D181CCE882100FFA870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D161CCE882100FFA870 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79245CF61CCF2807000AE1B3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		79FA4D0F1CCE882100FFA870 /* Final Project (UCL Stadiums).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project (UCL Stadiums).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA4D121CCE882100FFA870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FA4D141CCE882100FFA870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				79FA4D121CCE882100FFA870 /* AppDelegate.swift */,
 				79FA4D141CCE882100FFA870 /* ViewController.swift */,
+				79245CF61CCF2807000AE1B3 /* QuizViewController.swift */,
 				79FA4D161CCE882100FFA870 /* Main.storyboard */,
 				79FA4D191CCE882100FFA870 /* Assets.xcassets */,
 				79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79245CF71CCF2807000AE1B3 /* QuizViewController.swift in Sources */,
 				79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */,
 				79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */,
 			);
@@ -489,6 +493,7 @@
 				79FA4D391CCE882100FFA870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79FA4D3A1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)Tests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				79FA4D3C1CCE882100FFA870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79FA4D3D1CCE882100FFA870 /* Build configuration list for PBXNativeTarget "Final Project (UCL Stadiums)UITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				79FA4D3F1CCE882100FFA870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
