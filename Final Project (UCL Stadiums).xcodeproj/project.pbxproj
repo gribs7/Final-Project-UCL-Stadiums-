@@ -14,6 +14,7 @@
 		79FA4D1D1CCE882100FFA870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */; };
 		79FA4D281CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D271CCE882100FFA870 /* Final_Project__UCL_Stadiums_Tests.swift */; };
 		79FA4D331CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D321CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift */; };
+		79FA4D411CCE887E00FFA870 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FA4D401CCE887E00FFA870 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		79FA4D2E1CCE882100FFA870 /* Final Project (UCL Stadiums)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project (UCL Stadiums)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA4D321CCE882100FFA870 /* Final_Project__UCL_Stadiums_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__UCL_Stadiums_UITests.swift; sourceTree = "<group>"; };
 		79FA4D341CCE882100FFA870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FA4D401CCE887E00FFA870 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FA4D411CCE887E00FFA870 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		79FA4D061CCE882100FFA870 = {
 			isa = PBXGroup;
 			children = (
+				79FA4D401CCE887E00FFA870 /* MapKit.framework */,
 				79FA4D111CCE882100FFA870 /* Final Project (UCL Stadiums) */,
 				79FA4D261CCE882100FFA870 /* Final Project (UCL Stadiums)Tests */,
 				79FA4D311CCE882100FFA870 /* Final Project (UCL Stadiums)UITests */,
