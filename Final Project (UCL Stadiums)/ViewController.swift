@@ -288,11 +288,79 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let EmiratesStadiumAnnotation = MKPointAnnotation()
         
         EmiratesStadiumAnnotation.title = "Emirates Stadium"
-        EmiratesStadiumAnnotation.subtitle = "Home to Arsenal FC is a football stadium in Holloway, London, England, and the home of Arsenal Football Club. With a capacity of 60,260, the Emirates is the third-largest football stadium in England after Wembley and Old Trafford."
+        EmiratesStadiumAnnotation.subtitle = "Home to Arsenal FC"
         
         EmiratesStadiumAnnotation.coordinate = EmiratesStadiumLocation
         
         self.theMapView.addAnnotation(EmiratesStadiumAnnotation)
+        
+        
+    //STADIO OLIMPICO
+        
+        let StadioOlimpicoLatitude: CLLocationDegrees = 41.9341
+        let StadioOlimpicoLongitude: CLLocationDegrees = 12.4547
+        
+        let StadioOlimpicoLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(StadioOlimpicoLatitude, StadioOlimpicoLongitude)
+        
+        let StadioOlimpicoAnnotation = MKPointAnnotation()
+        
+        StadioOlimpicoAnnotation.title = "Stadio Olimpico"
+        StadioOlimpicoAnnotation.subtitle = "Where AS Roma plays"
+        
+        StadioOlimpicoAnnotation.coordinate = StadioOlimpicoLocation
+        
+        self.theMapView.addAnnotation(StadioOlimpicoAnnotation)
+        
+        
+    //BAYARENA
+        
+        let BayArenaLatitude: CLLocationDegrees = 51.0382
+        let BayArenaLongitude: CLLocationDegrees = 7.0023
+        
+        let BayArenaLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(BayArenaLatitude, BayArenaLongitude)
+        
+        let BayArenaAnnotation = MKPointAnnotation()
+        
+        BayArenaAnnotation.title = "BayArena"
+        BayArenaAnnotation.subtitle = "Where Bayer Leverkusen plays"
+        
+        BayArenaAnnotation.coordinate = BayArenaLocation
+        
+        self.theMapView.addAnnotation(BayArenaAnnotation)
+        
+    
+    //STADE LOUIS II
+        
+        let StadeLouisIILatitude: CLLocationDegrees = 43.7276
+        let StadeLouisIILongitude: CLLocationDegrees = 7.4155
+        
+        let StadeLouisIILocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(StadeLouisIILatitude, StadeLouisIILongitude)
+        
+        let StadeLouisIIAnnotation = MKPointAnnotation()
+        
+        StadeLouisIIAnnotation.title = "Stade Louis II"
+        StadeLouisIIAnnotation.subtitle = "Home to AS Monaco"
+        
+        StadeLouisIIAnnotation.coordinate = StadeLouisIILocation
+        
+        self.theMapView.addAnnotation(StadeLouisIIAnnotation)
+        
+        
+    //VOLKSWAGEN ARENA
+        
+        let VolkswagenArenaLatitude: CLLocationDegrees = 52.4326
+        let VolkswagenArenaLongitude: CLLocationDegrees = 10.8039
+        
+        let VolkswagenArenaLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(VolkswagenArenaLatitude, VolkswagenArenaLongitude)
+        
+        let VolkswagenArenaAnnotation = MKPointAnnotation()
+        
+        VolkswagenArenaAnnotation.title = "Volkswagen Arena"
+        VolkswagenArenaAnnotation.subtitle = "Where VfL Wolfsburg plays"
+        
+        VolkswagenArenaAnnotation.coordinate = VolkswagenArenaLocation
+        
+        self.theMapView.addAnnotation(VolkswagenArenaAnnotation)
         
         
     //

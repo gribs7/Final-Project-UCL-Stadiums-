@@ -17,46 +17,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-6b-jBg">
-                                <rect key="frame" x="251" y="244" width="98" height="30"/>
-                                <state key="normal" title="Next Question"/>
-                                <connections>
-                                    <action selector="showQ:" destination="V17-Pf-2tZ" eventType="touchUpInside" id="1X0-If-zcH"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkh-Ye-Ii8">
-                                <rect key="frame" x="288" y="149" width="25" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLy-5e-ONw">
+                                <rect key="frame" x="288" y="366" width="25" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLy-5e-ONw">
-                                <rect key="frame" x="288" y="367" width="25" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJY-Y3-ZUm">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJY-Y3-ZUm">
                                 <rect key="frame" x="254" y="475" width="93" height="30"/>
-                                <state key="normal" title="Show Answer"/>
+                                <state key="normal" title="Show Answer">
+                                    <color key="titleColor" red="1" green="0.3415970103" blue="0.30861318999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="showA:" destination="V17-Pf-2tZ" eventType="touchUpInside" id="nCU-M3-zdZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-6b-jBg">
+                                <rect key="frame" x="251" y="242.5" width="98" height="30"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="1" green="0.3415970103" blue="0.30861318999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showQ:" destination="V17-Pf-2tZ" eventType="touchUpInside" id="1X0-If-zcH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkh-Ye-Ii8">
+                                <rect key="frame" x="271" y="78" width="59" height="88.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.65561161970000004" green="0.85889643429999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Tkh-Ye-Ii8" firstAttribute="centerX" secondItem="dgo-Z3-Ma3" secondAttribute="centerX" id="35j-jh-zfd"/>
                             <constraint firstItem="eLy-5e-ONw" firstAttribute="top" secondItem="k1U-6b-jBg" secondAttribute="bottom" constant="93" id="IEh-BW-e3a"/>
                             <constraint firstItem="eLy-5e-ONw" firstAttribute="centerX" secondItem="Tkh-Ye-Ii8" secondAttribute="centerX" id="KaO-uI-2XO"/>
                             <constraint firstItem="KJY-Y3-ZUm" firstAttribute="centerX" secondItem="Tkh-Ye-Ii8" secondAttribute="centerX" id="MMP-sW-V8J"/>
-                            <constraint firstItem="KJY-Y3-ZUm" firstAttribute="top" secondItem="eLy-5e-ONw" secondAttribute="bottom" constant="87" id="N1U-pY-w7J"/>
-                            <constraint firstItem="Tkh-Ye-Ii8" firstAttribute="top" secondItem="b4Q-Tl-7fT" secondAttribute="bottom" constant="129" id="U8i-9V-Df3"/>
+                            <constraint firstItem="KJY-Y3-ZUm" firstAttribute="top" secondItem="eLy-5e-ONw" secondAttribute="bottom" constant="88.5" id="N1U-pY-w7J"/>
+                            <constraint firstItem="Tkh-Ye-Ii8" firstAttribute="top" secondItem="b4Q-Tl-7fT" secondAttribute="bottom" constant="58" id="U8i-9V-Df3"/>
                             <constraint firstItem="k1U-6b-jBg" firstAttribute="centerX" secondItem="Tkh-Ye-Ii8" secondAttribute="centerX" id="u94-AN-Jck"/>
-                            <constraint firstItem="k1U-6b-jBg" firstAttribute="top" secondItem="Tkh-Ye-Ii8" secondAttribute="bottom" constant="75" id="yIY-VE-yKh"/>
+                            <constraint firstItem="k1U-6b-jBg" firstAttribute="top" secondItem="Tkh-Ye-Ii8" secondAttribute="bottom" constant="76" id="yIY-VE-yKh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quiz" image="HomeIcon" selectedImage="QuizIcon2" id="rW7-Cg-032"/>
+                    <tabBarItem key="tabBarItem" title="Quiz" image="HomeIcon" id="rW7-Cg-032"/>
                     <navigationItem key="navigationItem" id="V48-Q3-vca"/>
                     <connections>
                         <outlet property="ALabel" destination="eLy-5e-ONw" id="jcB-AW-mSg"/>
@@ -65,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7h-l4-YYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4643" y="220"/>
+            <point key="canvasLocation" x="4625" y="308"/>
         </scene>
         <!--Map-->
         <scene sceneID="tne-QT-ifu">
@@ -102,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2964" y="294"/>
+            <point key="canvasLocation" x="3080" y="308"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uRK-f8-THD">
@@ -126,6 +130,5 @@
     <resources>
         <image name="HomeIcon" width="40" height="40"/>
         <image name="MapIcon" width="49" height="33"/>
-        <image name="QuizIcon2" width="40" height="40"/>
     </resources>
 </document>

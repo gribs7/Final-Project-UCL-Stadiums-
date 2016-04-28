@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		79245CF71CCF2807000AE1B3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79245CF61CCF2807000AE1B3 /* QuizViewController.swift */; };
+		79B782C21CD0F0220002963F /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B782C01CD0F0220002963F /* Fabric.framework */; };
+		79B782C31CD0F0220002963F /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B782C11CD0F0220002963F /* Crashlytics.framework */; };
 		79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D121CCE882100FFA870 /* AppDelegate.swift */; };
 		79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FA4D141CCE882100FFA870 /* ViewController.swift */; };
 		79FA4D181CCE882100FFA870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA4D161CCE882100FFA870 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		79245CF61CCF2807000AE1B3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		79B782C01CD0F0220002963F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		79B782C11CD0F0220002963F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		79FA4D0F1CCE882100FFA870 /* Final Project (UCL Stadiums).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project (UCL Stadiums).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FA4D121CCE882100FFA870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FA4D141CCE882100FFA870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FA4D411CCE887E00FFA870 /* MapKit.framework in Frameworks */,
+				79B782C31CD0F0220002963F /* Crashlytics.framework in Frameworks */,
+				79B782C21CD0F0220002963F /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +116,8 @@
 				79FA4D191CCE882100FFA870 /* Assets.xcassets */,
 				79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */,
 				79FA4D1E1CCE882100FFA870 /* Info.plist */,
+				79B782C01CD0F0220002963F /* Fabric.framework */,
+				79B782C11CD0F0220002963F /* Crashlytics.framework */,
 			);
 			path = "Final Project (UCL Stadiums)";
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 				79FA4D0B1CCE882100FFA870 /* Sources */,
 				79FA4D0C1CCE882100FFA870 /* Frameworks */,
 				79FA4D0D1CCE882100FFA870 /* Resources */,
+				79B782BF1CD0EFBE0002963F /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -260,6 +269,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79B782BF1CD0EFBE0002963F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run edc24fe3eeb73cf099f5e7ade297bc3d1c0ad553 d497feb42d84fea7675e781aca5ea29781559ffe4057b0707a124ba7040e1482";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79FA4D0B1CCE882100FFA870 /* Sources */ = {
@@ -408,6 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Final Project (UCL Stadiums)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-";
@@ -419,6 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Final Project (UCL Stadiums)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.Final-Project--UCL-Stadiums-";
