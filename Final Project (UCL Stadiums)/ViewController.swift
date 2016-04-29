@@ -1,18 +1,14 @@
-//
-//  ViewController.swift
-//  Final Project (UCL Stadiums)
-//
-//  Created by Gabriel Ribeiro on 4/25/16.
-//  Copyright © 2016 SHP. All rights reserved.
-//
 
 import UIKit
 
 import MapKit
 
+
 class ViewController: UIViewController, MKMapViewDelegate {
 
+    
     @IBOutlet weak var theMapView: MKMapView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +16,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
     //OPEN-UP VIEW OF MAP
         
-        let latDelta: CLLocationDegrees = 30
-        let longDelta: CLLocationDegrees = 30
+        let latDelta: CLLocationDegrees = 33
+        let longDelta: CLLocationDegrees = 33
         
         let theSpan: MKCoordinateSpan = MKCoordinateSpanMake(latDelta, longDelta)
         
@@ -61,7 +57,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let EstadioDaLuzAnnotation = MKPointAnnotation()
         
         EstadioDaLuzAnnotation.title = "Estadio Da Luz"
-        EstadioDaLuzAnnotation.subtitle = "Best Stadium in the World"
+        EstadioDaLuzAnnotation.subtitle = "Home to SL Benfica"
         
         EstadioDaLuzAnnotation.coordinate = EstadioDaLuzLocation
         
@@ -78,7 +74,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let ParcDesPrincesAnnotation = MKPointAnnotation()
         
         ParcDesPrincesAnnotation.title = "Parc Des Princes"
-        ParcDesPrincesAnnotation.subtitle = "Where PSG plays"
+        ParcDesPrincesAnnotation.subtitle = "Home to Paris Saint Germain"
         
         ParcDesPrincesAnnotation.coordinate = ParcDesPrincesLocation
         
@@ -101,7 +97,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let AllianzArenaAnnotation = MKPointAnnotation()
         
         AllianzArenaAnnotation.title = "Allianz Arena"
-        AllianzArenaAnnotation.subtitle = "Where Bayern Munchen plays"
+        AllianzArenaAnnotation.subtitle = "Home to Bayern Munchen"
         
         AllianzArenaAnnotation.coordinate = AllianzArenaLocation
         
@@ -118,7 +114,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let StamfordBridgeAnnotation = MKPointAnnotation()
         
         StamfordBridgeAnnotation.title = "Stamford Bridge"
-        StamfordBridgeAnnotation.subtitle = "Chelsea FC plays here"
+        StamfordBridgeAnnotation.subtitle = "Home to Chelsea FC"
         
         StamfordBridgeAnnotation.coordinate = StamfordBridgeLocation
         
@@ -135,7 +131,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let SantiagoBarnabeuAnnotation = MKPointAnnotation()
         
         SantiagoBarnabeuAnnotation.title = "Santiago Barnabeu"
-        SantiagoBarnabeuAnnotation.subtitle = "Where Real Madrid plays"
+        SantiagoBarnabeuAnnotation.subtitle = "Home to Real Madrid"
         
         SantiagoBarnabeuAnnotation.coordinate = SantiagoBarnabeuLocation
         
@@ -152,7 +148,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let JuventusStadiumAnnotation = MKPointAnnotation()
         
         JuventusStadiumAnnotation.title = "Juventus Stadium"
-        JuventusStadiumAnnotation.subtitle = "Where the Old Lady plays"
+        JuventusStadiumAnnotation.subtitle = "Home of the Old Lady"
         
         JuventusStadiumAnnotation.coordinate = JuventusStadiumLocation
         
@@ -169,7 +165,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let CampNouAnnotation = MKPointAnnotation()
         
         CampNouAnnotation.title = "Camp Nou"
-        CampNouAnnotation.subtitle = "Where Barcelona plays"
+        CampNouAnnotation.subtitle = "Home to FC Barcelona"
         
         CampNouAnnotation.coordinate = CampNouLocation
         
@@ -186,7 +182,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let EtihadStadiumAnnotation = MKPointAnnotation()
         
         EtihadStadiumAnnotation.title = "Etihad Stadium"
-        EtihadStadiumAnnotation.subtitle = "Where Manchester City plays"
+        EtihadStadiumAnnotation.subtitle = "Home to Manchester City"
         
         EtihadStadiumAnnotation.coordinate = EtihadStadiumLocation
         
@@ -203,7 +199,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let VincenteCalderonStadiumAnnotation = MKPointAnnotation()
         
         VincenteCalderonStadiumAnnotation.title = "Vincente Calderón Stadium"
-        VincenteCalderonStadiumAnnotation.subtitle = "Where Atlético Madrid plays"
+        VincenteCalderonStadiumAnnotation.subtitle = "Home to Atlético Madrid"
         
         VincenteCalderonStadiumAnnotation.coordinate = VincenteCalderonStadiumLocation
         
@@ -220,7 +216,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let PhilipsStadionAnnotation = MKPointAnnotation()
         
         PhilipsStadionAnnotation.title = "Philips Stadion"
-        PhilipsStadionAnnotation.subtitle = "Where PSV plays"
+        PhilipsStadionAnnotation.subtitle = "Home to PSV"
         
         PhilipsStadionAnnotation.coordinate = PhilipsStadionLocation
         
@@ -254,7 +250,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let ParcOlympiqueLyonnaisAnnotation = MKPointAnnotation()
         
         ParcOlympiqueLyonnaisAnnotation.title = "Parc Olympique Lyonnais"
-        ParcOlympiqueLyonnaisAnnotation.subtitle = "Where Olympique Lyonnais plays"
+        ParcOlympiqueLyonnaisAnnotation.subtitle = "Home to Olympique Lyonnais"
         
         ParcOlympiqueLyonnaisAnnotation.coordinate = ParcOlympiqueLyonnaisLocation
         
@@ -305,7 +301,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let StadioOlimpicoAnnotation = MKPointAnnotation()
         
         StadioOlimpicoAnnotation.title = "Stadio Olimpico"
-        StadioOlimpicoAnnotation.subtitle = "Where AS Roma plays"
+        StadioOlimpicoAnnotation.subtitle = "Home to AS Roma"
         
         StadioOlimpicoAnnotation.coordinate = StadioOlimpicoLocation
         
@@ -322,7 +318,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let BayArenaAnnotation = MKPointAnnotation()
         
         BayArenaAnnotation.title = "BayArena"
-        BayArenaAnnotation.subtitle = "Where Bayer Leverkusen plays"
+        BayArenaAnnotation.subtitle = "Home to Bayer Leverkusen"
         
         BayArenaAnnotation.coordinate = BayArenaLocation
         
@@ -356,14 +352,80 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let VolkswagenArenaAnnotation = MKPointAnnotation()
         
         VolkswagenArenaAnnotation.title = "Volkswagen Arena"
-        VolkswagenArenaAnnotation.subtitle = "Where VfL Wolfsburg plays"
+        VolkswagenArenaAnnotation.subtitle = "Home to VfL Wolfsburg"
         
         VolkswagenArenaAnnotation.coordinate = VolkswagenArenaLocation
         
         self.theMapView.addAnnotation(VolkswagenArenaAnnotation)
         
         
-    //
+    //PETROVSKY STADIUM
+        
+        let PetrovskyStadiumLatitude: CLLocationDegrees = 59.9522
+        let PetrovskyStadiumLongitude: CLLocationDegrees = 30.2854
+        
+        let PetrovskyStadiumLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(PetrovskyStadiumLatitude, PetrovskyStadiumLongitude)
+        
+        let PetrovskyStadiumAnnotation = MKPointAnnotation()
+        
+        PetrovskyStadiumAnnotation.title = "Petrovsky Stadium"
+        PetrovskyStadiumAnnotation.subtitle = "Home to FC Zenit Saint Petersburg"
+        
+        PetrovskyStadiumAnnotation.coordinate = PetrovskyStadiumLocation
+        
+        self.theMapView.addAnnotation(PetrovskyStadiumAnnotation)
+        
+        
+    //ANFIELD
+        
+        let AnfieldLatitude: CLLocationDegrees = 53.4308
+        let AnfieldLongitude: CLLocationDegrees = -2.9608
+        
+        let AnfieldLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(AnfieldLatitude, AnfieldLongitude)
+        
+        let AnfieldAnnotation = MKPointAnnotation()
+        
+        AnfieldAnnotation.title = "Anfield"
+        AnfieldAnnotation.subtitle = "Home to Liverpool FC"
+        
+        AnfieldAnnotation.coordinate = AnfieldLocation
+        
+        self.theMapView.addAnnotation(AnfieldAnnotation)
+        
+        
+    //RAMON SAMCHEZ PIZJUAN STADIUM
+        
+        let RamonSanchezPizjuanStadiumLatitude: CLLocationDegrees = 37.3841
+        let RamonSanchezPizjuanStadiumLongitude: CLLocationDegrees = -5.9707
+        
+        let RamonSanchezPizjuanStadiumLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(RamonSanchezPizjuanStadiumLatitude, RamonSanchezPizjuanStadiumLongitude)
+        
+        let RamonSanchezPizjuanStadiumAnnotation = MKPointAnnotation()
+        
+        RamonSanchezPizjuanStadiumAnnotation.title = "Ramón Sánchez Pizjuán Stadium"
+        RamonSanchezPizjuanStadiumAnnotation.subtitle = "Home to Sevilla FC"
+        
+        RamonSanchezPizjuanStadiumAnnotation.coordinate = RamonSanchezPizjuanStadiumLocation
+        
+        self.theMapView.addAnnotation(RamonSanchezPizjuanStadiumAnnotation)
+        
+        
+    //STADIO SAN PAOLO
+        
+        let StadioSanPaoloLatitude: CLLocationDegrees = 40.8279
+        let StadioSanPaoloLongitude: CLLocationDegrees = 14.1931
+        
+        let StadioSanPaoloLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(StadioSanPaoloLatitude, StadioSanPaoloLongitude)
+        
+        let StadioSanPaoloAnnotation = MKPointAnnotation()
+        
+        StadioSanPaoloAnnotation.title = "Stadio San Paolo"
+        StadioSanPaoloAnnotation.subtitle = "Home to S.S.C. Napoli"
+        
+        StadioSanPaoloAnnotation.coordinate = StadioSanPaoloLocation
+        
+        self.theMapView.addAnnotation(StadioSanPaoloAnnotation)
+        
         
         
         
