@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Quiz-->
@@ -17,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLy-5e-ONw">
-                                <rect key="frame" x="288" y="366" width="25" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLy-5e-ONw">
+                                <rect key="frame" x="288" y="297" width="25" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJY-Y3-ZUm">
-                                <rect key="frame" x="254" y="475" width="93" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJY-Y3-ZUm">
+                                <rect key="frame" x="254" y="406" width="93" height="30"/>
                                 <state key="normal" title="Show Answer">
                                     <color key="titleColor" red="1" green="0.3415970103" blue="0.30861318999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -32,8 +33,8 @@
                                     <action selector="showA:" destination="V17-Pf-2tZ" eventType="touchUpInside" id="nCU-M3-zdZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-6b-jBg">
-                                <rect key="frame" x="251" y="242.5" width="98" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1U-6b-jBg">
+                                <rect key="frame" x="251" y="174" width="98" height="30"/>
                                 <state key="normal" title="Next Question">
                                     <color key="titleColor" red="1" green="0.3415970103" blue="0.30861318999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -41,8 +42,8 @@
                                     <action selector="showQ:" destination="V17-Pf-2tZ" eventType="touchUpInside" id="1X0-If-zcH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkh-Ye-Ii8">
-                                <rect key="frame" x="271" y="78" width="59" height="88.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkh-Ye-Ii8">
+                                <rect key="frame" x="288" y="78" width="25" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -108,6 +109,48 @@
             </objects>
             <point key="canvasLocation" x="3080" y="308"/>
         </scene>
+        <!--/r/soccer-->
+        <scene sceneID="rk5-b0-FjP">
+            <objects>
+                <viewController id="8HG-Hv-BTT" customClass="WebViewController" customModule="Final_Project__UCL_Stadiums_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cu4-13-iVl"/>
+                        <viewControllerLayoutGuide type="bottom" id="yVd-T1-mAI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BGn-At-c8I" customClass="UIWebView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" allowsInlineMediaPlayback="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pk-Sr-ALv">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="V1e-uf-Xnb" id="Rsq-0P-yUR"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="leading" secondItem="BGn-At-c8I" secondAttribute="leadingMargin" constant="-20" id="N1Y-ki-tnt"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="centerY" secondItem="BGn-At-c8I" secondAttribute="centerY" id="VVi-9a-Hbx"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="top" secondItem="BGn-At-c8I" secondAttribute="topMargin" id="dWY-BV-AoH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Pk-Sr-ALv" secondAttribute="trailing" constant="-20" id="l1f-oZ-bRN"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="centerX" secondItem="BGn-At-c8I" secondAttribute="centerX" id="oLG-vV-Kuz"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="top" secondItem="BGn-At-c8I" secondAttribute="topMargin" id="rO9-ju-tHz"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="bottom" secondItem="BGn-At-c8I" secondAttribute="bottomMargin" id="teT-ge-1F6"/>
+                            <constraint firstItem="1Pk-Sr-ALv" firstAttribute="leading" secondItem="BGn-At-c8I" secondAttribute="leadingMargin" constant="-20" id="xxW-Ld-0hf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="/r/soccer" image="RedditIcon" id="V1e-uf-Xnb"/>
+                    <connections>
+                        <outlet property="webView" destination="1Pk-Sr-ALv" id="NF9-44-Xge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uF0-lT-Pc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3854" y="-519"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uRK-f8-THD">
             <objects>
@@ -120,6 +163,7 @@
                     <connections>
                         <segue destination="V17-Pf-2tZ" kind="relationship" relationship="viewControllers" id="pLS-pv-6eD"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="xYc-RX-VG5"/>
+                        <segue destination="8HG-Hv-BTT" kind="relationship" relationship="viewControllers" id="Lvd-0k-SPb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMa-bQ-mnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -130,5 +174,6 @@
     <resources>
         <image name="HomeIcon" width="40" height="40"/>
         <image name="MapIcon" width="49" height="33"/>
+        <image name="RedditIcon" width="40" height="40"/>
     </resources>
 </document>

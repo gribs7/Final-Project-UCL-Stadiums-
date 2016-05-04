@@ -427,6 +427,23 @@ class ViewController: UIViewController, MKMapViewDelegate {
         self.theMapView.addAnnotation(StadioSanPaoloAnnotation)
         
         
+    //OLD TRAFFORD
+        
+        let OldTraffordLatitude: CLLocationDegrees = 53.4631
+        let OldTraffordLongitude: CLLocationDegrees = -2.2913
+        
+        let OldTraffordLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(OldTraffordLatitude, OldTraffordLongitude)
+        
+        let OldTraffordAnnotation = MKPointAnnotation()
+        
+        OldTraffordAnnotation.title = "Old Trafford"
+        OldTraffordAnnotation.subtitle = "Home to Manchester United"
+        
+        OldTraffordAnnotation.coordinate = OldTraffordLocation
+        
+        self.theMapView.addAnnotation(OldTraffordAnnotation)
+        
+        
         
         
         

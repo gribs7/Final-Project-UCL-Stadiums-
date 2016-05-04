@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7909662E1CD58EBB0036B150 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7909662D1CD58EBB0036B150 /* WebViewController.swift */; };
 		79245CF71CCF2807000AE1B3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79245CF61CCF2807000AE1B3 /* QuizViewController.swift */; };
 		79B782C21CD0F0220002963F /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B782C01CD0F0220002963F /* Fabric.framework */; };
 		79B782C31CD0F0220002963F /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B782C11CD0F0220002963F /* Crashlytics.framework */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7909662D1CD58EBB0036B150 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		79245CF61CCF2807000AE1B3 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		79B782C01CD0F0220002963F /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		79B782C11CD0F0220002963F /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
@@ -109,10 +111,11 @@
 		79FA4D111CCE882100FFA870 /* Final Project (UCL Stadiums) */ = {
 			isa = PBXGroup;
 			children = (
-				79FA4D121CCE882100FFA870 /* AppDelegate.swift */,
+				79FA4D161CCE882100FFA870 /* Main.storyboard */,
 				79FA4D141CCE882100FFA870 /* ViewController.swift */,
 				79245CF61CCF2807000AE1B3 /* QuizViewController.swift */,
-				79FA4D161CCE882100FFA870 /* Main.storyboard */,
+				7909662D1CD58EBB0036B150 /* WebViewController.swift */,
+				79FA4D121CCE882100FFA870 /* AppDelegate.swift */,
 				79FA4D191CCE882100FFA870 /* Assets.xcassets */,
 				79FA4D1B1CCE882100FFA870 /* LaunchScreen.storyboard */,
 				79FA4D1E1CCE882100FFA870 /* Info.plist */,
@@ -295,6 +298,7 @@
 				79245CF71CCF2807000AE1B3 /* QuizViewController.swift in Sources */,
 				79FA4D151CCE882100FFA870 /* ViewController.swift in Sources */,
 				79FA4D131CCE882100FFA870 /* AppDelegate.swift in Sources */,
+				7909662E1CD58EBB0036B150 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
