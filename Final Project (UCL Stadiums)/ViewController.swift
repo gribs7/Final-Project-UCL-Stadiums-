@@ -29,7 +29,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         segmentedControl.selectedSegmentIndex = 0
         
         
-        segmentedControl.addTarget(self, action: "mapTypeChanged:", forControlEvents: .ValueChanged)
+        segmentedControl.addTarget(self, action: #selector(ViewController.mapTypeChanged(_:)), forControlEvents: .ValueChanged)
         
         
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vMe-5G-AP9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vMe-5G-AP9">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Quiz-->
+        <!--Quiz View Controller-->
         <scene sceneID="gj8-9K-Sr1">
             <objects>
                 <viewController id="V17-Pf-2tZ" customClass="QuizViewController" customModule="Final_Project__UCL_Stadiums_" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,7 +60,6 @@
                             <constraint firstItem="k1U-6b-jBg" firstAttribute="top" secondItem="Tkh-Ye-Ii8" secondAttribute="bottom" constant="76" id="yIY-VE-yKh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quiz" image="HomeIcon" id="rW7-Cg-032"/>
                     <navigationItem key="navigationItem" id="V48-Q3-vca"/>
                     <connections>
                         <outlet property="ALabel" destination="eLy-5e-ONw" id="jcB-AW-mSg"/>
@@ -69,9 +68,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7h-l4-YYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4625" y="308"/>
+            <point key="canvasLocation" x="6460.5" y="308"/>
         </scene>
-        <!--Map-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Final_Project__UCL_Stadiums_" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +97,6 @@
                             <constraint firstItem="Eh5-JJ-CGN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yEZ-AI-v1l"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="TXJ-8G-ygk"/>
                     <navigationItem key="navigationItem" id="nar-Rg-AhE"/>
                     <connections>
                         <outlet property="theMapView" destination="Eh5-JJ-CGN" id="B3T-Nq-dan"/>
@@ -106,29 +104,118 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3080" y="308"/>
+            <point key="canvasLocation" x="3997.5" y="308"/>
+        </scene>
+        <!--WebViewController-->
+        <scene sceneID="U0y-h3-Rcu">
+            <objects>
+                <viewController title="WebViewController" id="FtR-vA-DAY" customClass="WebViewController" customModule="Final_Project__UCL_Stadiums_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RT8-L7-Iaz"/>
+                        <viewControllerLayoutGuide type="bottom" id="mn2-Em-lCg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tjZ-DP-RST">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmS-4F-7n0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oVd-ER-fGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4771.5" y="-480"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uRK-f8-THD">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vMe-5G-AP9" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="mgm-QE-Ipc"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="0RZ-Pi-srK">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="V17-Pf-2tZ" kind="relationship" relationship="viewControllers" id="pLS-pv-6eD"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="xYc-RX-VG5"/>
+                        <segue destination="MyD-wz-cFR" kind="relationship" relationship="viewControllers" id="pLS-pv-6eD"/>
+                        <segue destination="VmT-4U-cH3" kind="relationship" relationship="viewControllers" id="xYc-RX-VG5"/>
+                        <segue destination="b4w-ie-s3A" kind="relationship" relationship="viewControllers" id="1pV-Qe-Pho"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMa-bQ-mnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3854" y="308"/>
+            <point key="canvasLocation" x="4771.5" y="308"/>
+        </scene>
+        <!--/r/soccer-->
+        <scene sceneID="vyZ-g2-G2x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b4w-ie-s3A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="/r/soccer" image="Reddit-alien" id="B0S-Nf-mNu"/>
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="klN-mz-Gzl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="fji-dC-Ht7">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="FtR-vA-DAY" kind="relationship" relationship="rootViewController" id="wQD-X6-MVU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uLI-wz-CG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3853.5" y="-480"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="Owg-bW-gYj">
+            <objects>
+                <navigationController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="VmT-4U-cH3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="TXJ-8G-ygk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="shQ-nv-1Dw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VYx-1I-fNJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FmC-lq-cpE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2f-Gp-Dmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3079.5" y="308"/>
+        </scene>
+        <!--Quiz-->
+        <scene sceneID="cOq-id-uOg">
+            <objects>
+                <navigationController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" navigationBarHidden="YES" id="MyD-wz-cFR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Quiz" image="HomeIcon" id="rW7-Cg-032"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Hpx-Ts-KUA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="lw3-ck-qrK">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="V17-Pf-2tZ" kind="relationship" relationship="rootViewController" id="bvW-e6-1Tp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGv-mq-mYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5542.5" y="308"/>
         </scene>
     </scenes>
     <resources>
         <image name="HomeIcon" width="40" height="40"/>
         <image name="MapIcon" width="49" height="33"/>
+        <image name="Reddit-alien" width="40" height="40"/>
     </resources>
 </document>

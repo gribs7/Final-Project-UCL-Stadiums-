@@ -11,7 +11,7 @@ class QuizViewController: UIViewController {
     
     
     @IBAction func showQ(sender: AnyObject) {
-        ++currentQIndex
+        currentQIndex += 1
         if currentQIndex == Qs.count {
             currentQIndex = 0
         }
